@@ -1,0 +1,99 @@
+.home-tunggangi-cbr {
+    margin-top: 7rem;
+}
+
+.home-tunggangi-cbr .container .row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.home-tunggangi-cbr h2 {
+    align-items: center;
+    font-weight: bold;
+    font-size: 2.2rem;
+}
+
+.home-tunggangi-cbr .container .row img {
+    width: 35rem;
+    border-radius: 1rem;
+}
+
+.home-tunggangi-cbr .paragraf {
+    margin-top: 5rem;
+    text-align: justify;
+    line-height: 1.75;
+}
+
+.home-tunggangi-cbr .container .row h5 {
+    margin-top: 2rem;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+/* Home Press Release */
+
+.home-release {
+    margin-top: 6rem;
+    padding: 0 1rem;
+}
+
+.home-release .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-bottom: 1.5rem;
+}
+
+.home-release .card-body a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.home-release .card-body a:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+/* EndHome press release */
+
+@media (max-width: 992px) {
+    html {
+        font-size: 80%;
+    }
+
+    .home-tunggangi-cbr .container .row img {
+        width: 30rem;
+    }
+}
+
+@media (max-width: 768px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 58%;
+    }
+
+    .home-tunggangi-cbr {
+        padding: 0 1.5rem;
+    }
+
+    .home-tunggangi-cbr .container .row img {
+        margin-top: 1.8rem;
+    }
+
+}

@@ -1,0 +1,9 @@
+.form-pendaftaran h1 {
+    margin-top: 5.5rem;
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 75%;
+    }
+}

@@ -1,0 +1,84 @@
+/* Home Press Release */
+
+.home-release {
+    margin-top: 6rem;
+    padding: 0 1rem;
+}
+
+.home-release .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.home-release .card-body p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.home-release .card-body a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.home-release .card-body a:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+/* End Release */
+
+/* Start Press */
+
+.home-press .card-body h4 {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.home-press .card-body p {
+    font-size: 1.2rem;
+    text-align: justify;
+}
+
+.home-press .card-body a {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    padding: 0.5rem 1rem;
+    background-color: red;
+    border-radius: 0.5rem;
+    border: 2px solid white;
+    transition: .5s;
+}
+
+.home-press .card-body a:hover {
+    background-color: white;
+    border-color: red;
+    color: red;
+}
+
+/* EndHome press release */
+
+@media (max-width: 768px) {
+    html {
+        font-size: 63%;
+    }
+}
+
+@media (max-width: 450px) {
+    html {
+        font-size: 58%;
+    }
+}
